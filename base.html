@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <title>Site de produtos nerdolas</title>
+</head>
+<body>
+  <header>
+    <nav class ="navprincipal" class="navbar navbar-expand-sm bg-inverse" >
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item1">
+          <a class="nav-link1" href="{% url 'index' %}"> <img class ="logonav" src ="static/IMG/logoESTELAR.png" style ="max-width:60px; max-height:40px"> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'index' %}">HOME</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'produtos' %}">PRODUTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'quemsomos' %}">ESTELARI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'detalhes' %}">VENDA SEU PRODUTO</a>
+        </li>
+
+        <div class = "search-box">
+          <input type = "text" class =" search-text" placeholder ="Pesquisar">
+        </div>
+      </ul>
+
+     
+    
+    </nav>
+
+
+  </header>
+
+  <div class ="container mt-4">
+
+       {% block conteudo %}
+
+    
+
+       {% endblock %}
+
+  </div>
+
+   
+
+  
+  <footer>
+
+    <div class ="logotipo"><
+
+    <img src =" /static/IMG/logoESTELAR.png" style ="maxwidth: 110px; max-height:80px" alt ="logotipo">
+    </div>
+  </footer>
+  
+  <script src="scripts.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

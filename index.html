@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+<section>
+
+ 
+ 
+  
+</section>
+
+<section class ="textoprincipal">
+
+  <div class ="textoprinci">
+
+  <p> A ESTELARI É A SUA LOJINHA VIRTUAL! </p> 
+  <P> Compre ou venda atigos de seus jogos, animes, filmes e HQ's favoritos. </P>
+  </div>
+
+  <div class ="textoprincipal">
+    <h1> CONHEÇA NOSSOS PRODUTOS</h1>
+  </div>
+ 
+</section>
+
+<section>
+
+  <div class = col-xs-12 col-sm-6">
+
+    <div  class ="posters">
+
+      <div class = "hov1">
+        <a href="{% url 'produtos' %}"><img  src="/static/IMG/poster1.png"  max-width=" 243px" max-height="601" alt = "Jogos" class="img-responsivev"> </a>
+      </div>
+        <div class = "hov2">
+          <a href="{% url 'produtos' %}"><img  src ="/static/IMG/posteraven.png" max-width=" 243px" max-height="601" alt = "Filmes e séries" class="img-responsive"></a>
+          </div>
+        <div class = "hov3">
+          <a href="{% url 'produtos' %}"><img src ="/static/IMG/postersc.png" max-width = "243px" max-height="570" alt ="Anime" class="img-responsive"></a>
+        </div>
+        <div class = "hov4">
+          <a href="{% url 'produtos' %}"><img src ="/static/IMG/postermob.png" max-width ="243px" max-height ="610" alt = "Livros e HQ" class="img-responsive"></a>
+        </div>
+        
+        
+        
+    </div>
+  
+  </section>
+
+  <section>
+
+    <div class ="Texto2">
+
+    <h3>Alguma frase de efeito sei la</h3>
+    <p> balablaaklkaskakad</p>
+    </div>
+  </section>
+
+{% endblock %}
+

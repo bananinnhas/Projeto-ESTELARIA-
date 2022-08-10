@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LibreBarcode39&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+
+* {
+    margin:0;
+    padding: 0;
+
+ }
+
+ body{
+    background-color: black;
+ }
+
+ /* navbar */
+
+ ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #9d5bdb ;
+    overflow: hidden;
+  
+  }
+
+ li{
+   font-family: 'Bungee', Bungee;
+    display: inline;
+    float:left;
+ }
+
+ li .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li .nav-link:hover {
+    background-color: white;
+    color: #9d5bdb ;
+  }
+
+  .nav-link {
+    display: block;
+    
+    padding: 8px;
+    background-color: #9d5bdb ;
+  }
+
+  .nav-item1{
+    background-color: 	#9d5bdb ;
+  }
+
+  .search-box{
+    padding-top: 30px;
+  }
+
+
+  /* carrossel */
+
+
+  
+  
+/* fim carrossel*/
+  
+
+  /* fim navbar*/
+
+
+.textoprincipal{
+  padding-top:20px;
+   font-family: 'Bangers', Bangers;
+   text-align: center;
+   color:white;
+   font-size: larger;
+}
+
+.textoprinci{
+  margin-top: 70px;
+  
+  font-family: 'Poppins', Poppins;
+  color: white;
+
+}
+
+
+
+/* posters com zoom do index */
+
+.posters{
+   display:flex;
+   flex-direction: row;
+
+   margin-bottom: 5%;
+  
+   margin-top: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+    
+}
+
+.label{
+   position: absolute;
+   left: 2%;
+   right: 2%;
+   bottom: 20px;
+   z-index:10;
+   margin-left: 80px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   color:white;
+}
+
+.hov1, .hov2, .hov3, .hov4{
+   position: relative;
+  border: 1px solid #000;
+  overflow: hidden;
+  width: 400px;
+
+}
+
+.hov1 img,.hov2 img, .hov3 img, .hov4 img {
+   max-width: 100%;
+   -moz-transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   transition: all 0.5s;
+ }
+ .hov1:hover img, .hov2:hover img, .hov3:hover img, .hov4:hover img {
+   -moz-transform: scale(1);
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+ /*fim posters*/
+
+
+ .texto2{
+
+   justify-content: center;
+   color: white;
+ }
+
+
+ .logotipo{
+   display:flex;
+
+
+   justify-content: center;
+  
+ }
+
+ /* css página de produtos */
+
+
+
+ .texto2pag{
+   color:white;
+   justify-content: center;
+ }
+
+ .produto{
+   display: flex;
+   justify-content: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   padding-top: 20px;
+   border: 1px solid white;
+
+ }
+
+ .logonav{
+  padding-top:15px;
+
+  margin-left: 10px;
+ }
+ 
+
+
