@@ -99,13 +99,7 @@
 .posters{
    display:flex;
    flex-direction: row;
-
-   margin-bottom: 5%;
-  
-   margin-top: 5%;
-   margin-left: 5%;
-   margin-right: 5%;
-    
+    justify-content: center;
 }
 
 .label{
@@ -122,9 +116,9 @@
 
 .hov1, .hov2, .hov3, .hov4{
    position: relative;
-  border: 1px solid #000;
+  border: 10px solid #000;
   overflow: hidden;
-  width: 400px;
+
 
 }
 
